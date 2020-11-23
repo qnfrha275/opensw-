@@ -1,52 +1,53 @@
-#include <stdio.h>
+//#include <stdio.h>
 
-void func1(int* p);
-void func2(int** p);
-void func3(int*** p);
-void func4(int**** p);
+//void func1(int* p);
+//void func2(int** p);
+//void func3(int*** p);
+//void func4(int**** p);
 
 
-int main()
-{
-int i = 100;
+//int main()
+//{
+//int i = 100;
 
-int *p, **dp, ***tp;
+//int *p, **dp, ***tp;
 
-p = &i;
-dp = &p;
-tp = &dp;
+//p = &i;
+//dp = &p;
+//tp = &dp;
 
-func1(&i);
-printf("i = %d\n",i);
+//func1(&i);
+//printf("i = %d\n",i);
 
-fucn2(&p);
-printf("*p = %d\n", *p);
+//fucn2(&p);
+//printf("*p = %d\n", *p);
 
-func3(&dp);
-printf("**dp = %d\n",***dp);
+//func3(&dp);
+//printf("**dp = %d\n",***dp);
 
-func4(&tp);
-printf("***tp = %d\n", ***tp);
+//func4(&tp);
+//printf("***tp = %d\n", ***tp);
 
-return 0;
-}
+//return 0;
+//}
 
-void func1(int* p)
-{
- *p = *p + 100;
-}
+//void func1(int* p)
+//{
+// *p = *p + 100;
+//}
 
-void func2(int** p)
-{
- **p = **p + 100;
-}
+//void func2(int** p)
+//{
+// **p = **p + 100;
+//}
 
-void func3(int*** p)
-{
-***p = ***p + 100;
-}
-void func4(int****p)
-{
-****p + ****p + 100;
-}
+//void func3(int*** p)
+//{
+//***p = ***p + 100;
+//}
+//void func4(int****p)
+//{
+//****p + ****p + 100;
+//}
+//
 
